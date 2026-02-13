@@ -9,10 +9,13 @@ import SwiftUI
 
 struct BotonTicTac: View {
     @State var opcion_a_mostrar = 0
+
+    
+    
     let opciones = ["-","X", "O"]
     var body: some View {
         VStack{
-            
+ 
             if opcion_a_mostrar == 0 {
                 Text("-")
                     .background(Color.white)
